@@ -26,7 +26,7 @@ const Signin = () => {
     } else if (Password.length === 0) {
       alert('Please enter password  !!!!')
     } else {
-      //const data = new FormData()
+      
       const data = { email: Email, password: Password }
       console.log(data);
 

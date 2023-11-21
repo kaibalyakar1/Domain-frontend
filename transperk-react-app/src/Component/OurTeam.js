@@ -30,10 +30,10 @@ export class OurTeam extends Component {
                           <div className="img-area"><img src={userlogo} alt="user" /></div>
                           <div className="img-text">
                             <h2>KAIBALYA KAR</h2>
-                            <p>SWEAPER AND CEO</p>
+                            <p>CEO</p>
 
-                            <h5> <i className="fa fa-envelope" aria-hidden="true">&nbsp;kanhe@gmail.com</i></h5>
-                            <h5><i className="fa fa-mobile-phone " aria-hidden="true">&nbsp;7777777907</i></h5>
+                            <h5> <i className="fa fa-envelope" aria-hidden="true">&nbsp;kaibalyakar95@gmail.com</i></h5>
+                            <h5><i className="fa fa-mobile-phone " aria-hidden="true">&nbsp;7978797141</i></h5>
 
 
                           </div>
@@ -44,7 +44,7 @@ export class OurTeam extends Component {
                           <div className="img-area"><img src={userlogo} alt="user" /></div>
                           <div className="img-text">
                             <h2>NAYABRATA SWAIN</h2>
-                            <p>MANAGER AND CHAIRMAN</p>
+                            <p>MANAGER AND SWEEPER</p>
                             <h5> <i className="fa fa-envelope" aria-hidden="true">&nbsp;vicky@gmail.com</i></h5>
                             <h5><i className="fa fa-mobile-phone " aria-hidden="true">&nbsp;8249974573</i></h5>
 

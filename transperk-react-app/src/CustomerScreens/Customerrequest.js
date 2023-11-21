@@ -8,9 +8,7 @@ const Customerrequest = () => {
   const history = useHistory()
   const [request, setRequest] = useState([])
   const customerId = sessionStorage.getItem('customerId')
-  //  console.log(sessionStorage.getItem('customer'))
-
-  //  const [user, setUser] = useState([])
+  
 
   useEffect(() => {
     console.log(`User got loaded`)
@@ -29,24 +27,7 @@ const Customerrequest = () => {
       }
     })
   }
-  // const deleteAccount=()=>{
-  //     axios.delete(`http://localhost:8080/customer/${customerId}`).then(response => {
-  //         const result = response.data;
-  //         if (result){
-  //           alert('Customer Account Deleted')
 
-  //             sessionStorage.removeItem('customer')
-  //           history.push('/Signin')
-  //           window.location.reload();
-  //         }
-  //         else {
-  //           alert('error')
-  //         }
-  //       }).catch(err =>{
-  //         console.log(err)
-  //       }) 
-
-  // }
 
   const deleteRequest = (data) => {
     console.log(data);
@@ -81,7 +62,7 @@ const Customerrequest = () => {
     axios.get(`http://localhost:8080/customer/request_status/${data}`).then(response => {
       const result = response.data;
       if (result) {
-        //alert(result)
+        alert(result)
         console.log(result)
         console.log(result.id)
         console.log(result.customer.id)

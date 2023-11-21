@@ -55,11 +55,11 @@ const Addvehicle = () => {
     <div className="container">
       <br></br>
       <div >
-        <div className="mb-3" className="sign">
+        <div className="mb-3 sign">
           <h1>Add Vehicle Details</h1>
           <br></br>
           
-         <h5>Driver Name: </h5  >
+         <h5>Driver Name: </h5>
          <input
             onChange={(e) => {
               setdriverName(e.target.value)

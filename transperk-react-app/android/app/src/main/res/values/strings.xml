@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">transperk</string>
-    <string name="title_activity_main">transperk</string>
-    <string name="package_name">com.transperk.app</string>
-    <string name="custom_url_scheme">com.transperk.app</string>
-</resources>

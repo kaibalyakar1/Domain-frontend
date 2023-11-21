@@ -89,9 +89,7 @@ export class Home extends Component {
               data-ride="carousel"
             >
               <ol className="carousel-indicators">
-                {/* <li data-target="#myCarousel" data-slide-to="0" class="active"></li> */}
-                {/* <li data-target="#myCarousel" data-slide-to="1"></li> */}
-                {/* <li data-target="#myCarousel" data-slide-to="2"></li> */}
+               
               </ol>
               <div className="carousel-inner">
                 <div className="carousel-item active">
@@ -247,7 +245,7 @@ export class Home extends Component {
                 <h3>Reach To Us</h3>
                 <h5>
                   <i className="fa fa-envelope" aria-hidden="true" />{" "}
-                  vicky@gmail.com
+                  CentroShipping@gmail.com
                 </h5>
                 <h5>
                   <i className="fa fa-phone-square" aria-hidden="true" />{" "}

@@ -140,7 +140,7 @@ const Signup = () => {
   return (
     <div className="container">
       <div>
-        <div className="mb-3" className="sign">
+        <div className="mb-3 sign">
           <h1>SignUp</h1>
           <br></br>
           <div className="mb-3">

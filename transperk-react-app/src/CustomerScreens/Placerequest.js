@@ -42,11 +42,11 @@ const Placerequest = () => {
     <div className="container">
       <br></br>
       <div >
-        <div className="mb-3" className="sign">
+        <div className="mb-3 sign">
           <h1>Request Form</h1>
           <br></br>
           
-         <h5>Pick Up: </h5  >
+         <h5>Pick Up: </h5>
          <input
             onChange={(e) => {
               setpickUp(e.target.value)

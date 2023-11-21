@@ -43,8 +43,7 @@ const Pendingrequests = () => {
     const completeRequest=(data)=>{
         
         console.log(data)
-        //sessionStorage.setItem('vendorId',data)
-        //history.push('/Placerequest')
+       
 
         axios.post(`http://localhost:8080/vendor/complete_request/${data}`).then((response) => {
           const result = response.data
@@ -56,9 +55,7 @@ const Pendingrequests = () => {
               history.push('/Vendor')
             //   console.log("in get user")
             //   console.log(result.bookingList)
-            //setRequests(result)
-           // console.log(result.getUsers)
-            
+           
           } else {
             alert('error')
           }
@@ -97,8 +94,7 @@ const Pendingrequests = () => {
                                 <td>{req.truckType}</td>
                                 <td>{req.requestStatus}</td>
                                 <td>{req.goodsType}</td>
-                                {/* <td><button  onClick={()=>acceptRequest(req.id)} className="btn btn-success">Accept</button></td> */}
-                                {/* <td><button  onClick={()=>rejectRequest(req.id)} className="btn btn-success">Reject</button></td> */}
+                              
                                 <td><button disabled={req.requestStatus =="INPROGRESS"} onClick={()=>addVehicleRequest(req.id)} className="btn btn-info">Add Vehicle</button></td>
                                 <td><button disabled={req.requestStatus !="INPROGRESS"} onClick={()=>completeRequest(req.id)} className="btn btn-success">Complete</button></td>
                             </tr>

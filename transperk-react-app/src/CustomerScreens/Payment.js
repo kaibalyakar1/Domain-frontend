@@ -39,7 +39,7 @@ const Payment = () => {
     <div className="container">
       <br></br>
       <div >
-        <div className="mb-3" className="sign">
+        <div className="mb-3 sign">
           <h1>Payment</h1>
           <br></br>
           

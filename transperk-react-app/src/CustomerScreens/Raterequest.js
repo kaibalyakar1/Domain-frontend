@@ -38,11 +38,11 @@ const Raterequest = () => {
     <div className="container">
       <br></br>
       <div >
-        <div className="mb-3" className="sign">
+        <div className="mb-3 sign">
           <h1>Rating page</h1>
           <br></br>
           
-         <h5>Give Ratings 1 - 5 </h5  >
+         <h5>Give Ratings 1 - 5 </h5>
          <input
             onChange={(e) => {
               setratings(e.target.value)

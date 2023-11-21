@@ -7,7 +7,7 @@ import Signin from '../Component/Signin';
 
 const Vendorprofile=()=>{
 const history = useHistory()
- //  const user= JSON.parse(localStorage.getItem('user'))  //u=user
+
  const vendor= JSON.parse(sessionStorage.getItem('vendor'))
  const vendorId=sessionStorage.getItem('vendorId')
 
