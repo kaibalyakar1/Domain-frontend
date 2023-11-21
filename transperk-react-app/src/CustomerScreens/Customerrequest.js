@@ -12,7 +12,10 @@ const Customerrequest = () => {
 
   //  const [user, setUser] = useState([])
 
-  
+  useEffect(() => {
+    console.log(`User got loaded`)
+    getRequests()
+  }, [])
 
   const getRequests = () => {
     axios.get(url + `/customer/requests/${customerId}`).then((response) => {
